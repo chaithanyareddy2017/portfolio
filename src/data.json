@@ -1,0 +1,47 @@
+{
+  "currently": "Building RoomGen AI · Learning diffusion model fine-tuning · Open to ML internships",
+  "skills": [
+    {
+      "id": "ml-classical",
+      "title": "Machine Learning",
+      "icon": "target",
+      "body": "I work across the classical-to-deep spectrum — XGBoost and LightGBM ensembles for structured data, with calibrated threshold optimization for imbalanced problems like fraud detection."
+    },
+    {
+      "id": "dl-generative",
+      "title": "Deep Learning / Generative",
+      "icon": "layers",
+      "body": "Currently building RoomGen AI: SAM 2 for segmentation, Depth Anything V2 for scene geometry, Flux.1-dev + ControlNet for masked inpainting — all served via FastAPI on Modal."
+    },
+    {
+      "id": "llm-systems",
+      "title": "Applied LLM Systems",
+      "icon": "code",
+      "body": "Built AI Interview Auditor end-to-end: Whisper transcription, Llama 3.3 70B rubric scoring via Groq, LlamaIndex + ChromaDB retrieval — validated across a 20-student pilot."
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-interview-auditor",
+      "title": "AI Interview Auditor",
+      "tagline": "Real-time interview scoring with multimodal LLM analysis",
+      "status": "live demo",
+      "media": "",
+      "description": "An interview-scoring system built to give candidates structured, repeatable feedback instead of a single pass/fail verdict. Audio is transcribed with Whisper, then scored against a defined rubric using Llama 3.3 70B served via Groq for low-latency inference. Grounding context is retrieved through a LlamaIndex + ChromaDB pipeline so feedback references actual interview content rather than generic advice. Session history and scores persist in SQLite. Validated across a 20-student pilot and deployed live on Hugging Face Spaces.",
+      "stack": ["Streamlit", "Whisper", "Groq", "LlamaIndex", "ChromaDB"],
+      "github": "https://github.com/chaithu2007",
+      "demo": "https://huggingface.co/spaces/chaithu2007/AI-Auditor"
+    },
+    {
+      "id": "roomgen-ai",
+      "title": "RoomGen AI",
+      "tagline": "Inpaint one piece of furniture, not the whole room",
+      "status": "in progress",
+      "media": "",
+      "description": "Most AI room-design tools regenerate the entire scene, discarding everything that already works. RoomGen edits one piece of furniture at a time — closer to how an interior designer actually works. SAM 2 segments the selected item, Depth Anything V2 estimates scene geometry so the replacement sits correctly in 3D space, and Flux.1-dev with ControlNet handles the masked inpainting itself. The backend runs as a FastAPI service on Modal; the canvas-based frontend is in active development in React.",
+      "stack": ["SAM 2", "Flux.1-dev", "ControlNet", "FastAPI", "Modal", "React"],
+      "github": "",
+      "demo": ""
+    }
+  ]
+}
