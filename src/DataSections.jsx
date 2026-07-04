@@ -174,8 +174,8 @@ function ProjectMedia({ src, alt }) {
     // No media yet — quiet placeholder, not a broken image icon
     return (
       <div className="w-full h-44 bg-gradient-to-br from-white/5 to-white/[0.02] border-b border-white/10 flex items-center justify-center">
-        <span className="font-mono text-xs text-[#4A4F5C]">
-          preview coming soon
+        <span >
+          preview:"./portfolio.mp4",
         </span>
       </div>
     );

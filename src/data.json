@@ -42,6 +42,16 @@
       "stack": ["SAM 2", "Flux.1-dev", "ControlNet", "FastAPI", "Modal", "React"],
       "github": "",
       "demo": ""
+    },
+    {
+      "id": "Personal-website",
+      "title": "Portfolio",
+      "status": "in progress",
+      "media": "/videos/portfolio.mp4",
+      "description": "Most AI room-design tools regenerate the entire scene, discarding everything that already works. RoomGen edits one piece of furniture at a time — closer to how an interior designer actually works. SAM 2 segments the selected item, Depth Anything V2 estimates scene geometry so the replacement sits correctly in 3D space, and Flux.1-dev with ControlNet handles the masked inpainting itself. The backend runs as a FastAPI service on Modal; the canvas-based frontend is in active development in React.",
+      "stack": ["SAM 2", "Flux.1-dev", "ControlNet", "FastAPI", "Modal", "React"],
+      "github": "",
+      "demo": ""
     }
   ]
 }
