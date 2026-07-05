@@ -26,11 +26,11 @@
       "title": "AI Interview Auditor",
       "tagline": "Real-time interview scoring with multimodal LLM analysis",
       "status": "live demo",
-      "media": "",
+      "media": "/videos/auditor.mp4",
       "description": "An interview-scoring system built to give candidates structured, repeatable feedback instead of a single pass/fail verdict. Audio is transcribed with Whisper, then scored against a defined rubric using Llama 3.3 70B served via Groq for low-latency inference. Grounding context is retrieved through a LlamaIndex + ChromaDB pipeline so feedback references actual interview content rather than generic advice. Session history and scores persist in SQLite. Validated across a 20-student pilot and deployed live on Hugging Face Spaces.",
       "stack": ["Streamlit", "Whisper", "Groq", "LlamaIndex", "ChromaDB"],
-      "github": "https://github.com/chaithu2007",
-      "demo": "https://huggingface.co/spaces/chaithu2007/AI-Auditor"
+      "github": "https://github.com/chaithanyareddy2017/AI_auditor",
+      "demo": "https://aiauditor-izswj5y9hwhyvq5bftnbyp.streamlit.app/"
     },
     {
       "id": "roomgen-ai",
