@@ -271,7 +271,7 @@ function Hero() {
               className="w-44 h-44 rounded-full object-cover border border-white/10"
             />
             <div className="flex gap-3 mt-5">
-              <SocialCircle href="https://github.com/chaithu2007" label="GitHub">
+              <SocialCircle href="https://github.com/chaithanyareddy2017" label="GitHub">
                 <IconGithub size={18} />
               </SocialCircle>
               {/* LINKEDIN: replace href with your real profile URL */}
