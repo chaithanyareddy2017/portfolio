@@ -407,7 +407,7 @@ function Collaborate() {
                       <input
                         value={form.email}
                         onChange={set("email")}
-                        placeholder="you@email.com"
+                        placeholder="chaithanyareddy202@gmail.com"
                         className="w-full bg-white/5 border border-white/10 rounded px-3 py-2 text-[#EDEDEF] text-sm focus:outline-none focus:border-[#A36BD0]"
                       />
                     </div>
