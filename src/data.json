@@ -33,25 +33,15 @@
       "demo": "https://aiauditor-izswj5y9hwhyvq5bftnbyp.streamlit.app/"
     },
     {
-      "id": "roomgen-ai",
-      "title": "RoomGen AI",
-      "tagline": "Inpaint one piece of furniture, not the whole room",
-      "status": "in progress",
-      "media": "",
-      "description": "Most AI room-design tools regenerate the entire scene, discarding everything that already works. RoomGen edits one piece of furniture at a time — closer to how an interior designer actually works. SAM 2 segments the selected item, Depth Anything V2 estimates scene geometry so the replacement sits correctly in 3D space, and Flux.1-dev with ControlNet handles the masked inpainting itself. The backend runs as a FastAPI service on Modal; the canvas-based frontend is in active development in React.",
-      "stack": ["SAM 2", "Flux.1-dev", "ControlNet", "FastAPI", "Modal", "React"],
-      "github": "",
-      "demo": ""
-    },
-    {
-      "id": "Personal-website",
-      "title": "Portfolio",
-      "status": "in progress",
-      "media": "/videos/portfolio.mp4",
-      "description": "Most AI room-design tools regenerate the entire scene, discarding everything that already works. RoomGen edits one piece of furniture at a time — closer to how an interior designer actually works. SAM 2 segments the selected item, Depth Anything V2 estimates scene geometry so the replacement sits correctly in 3D space, and Flux.1-dev with ControlNet handles the masked inpainting itself. The backend runs as a FastAPI service on Modal; the canvas-based frontend is in active development in React.",
-      "stack": ["SAM 2", "Flux.1-dev", "ControlNet", "FastAPI", "Modal", "React"],
-      "github": "",
-      "demo": ""
+      "id": "Research Agent",
+      "title": "Reflectiv research agent",
+      "tagline": "arXiv Agentic Research Summarizer",
+      "status": "live demo",
+      "media": "/videos/research agent.mp4",
+      "description": "An autonomous research agent that fetches live papers from arXiv,drafts a summary, critiques its own output using an LLM-as-judge  pattern, and revises — producing a structured research report.",
+      "stack": ["Python · Flask · Groq (Llama 3.3 70B) · arXiv API · Jinja2 · Tailwind CSS"],
+      "github": "https://github.com/chaithanyareddy2017/research-agent",
+      "demo": "https://research-agent-yu6l.onrender.com"
     }
   ]
 }
