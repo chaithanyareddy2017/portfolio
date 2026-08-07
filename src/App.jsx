@@ -266,7 +266,7 @@ function Hero() {
             {/* PHOTO PLACEHOLDER: swap this div for an <img src="/your-photo.jpg" className="w-44 h-44 rounded-full object-cover border border-white/10" />
                 once you upload your photo */}
             <img
-              src="/photo3.jpg"
+              src="/photo 3.jpg"
               alt="Chaithanya Reddy"
               className="w-44 h-44 rounded-full object-cover border border-white/10"
             />
